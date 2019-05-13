@@ -1,0 +1,23 @@
+{
+  "type": "library",
+  "name": "djstarcom/fb-account-kit",
+  "description": "Facebook Account Kit SDK",
+  "license": "MIT",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Stanislav Tsepeniuk",
+      "email": "s.tsepeniuk@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "djstarcom\\FBAccountKit\\": "src"
+    }
+  }
+}
